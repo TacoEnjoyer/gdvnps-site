@@ -1,0 +1,17 @@
+<template>
+  <main class="relative z-10 flex flex-1 flex-col">
+    <section class="relative">
+      <div
+        class="mx-auto mt-32 flex w-full flex-col items-center justify-center gap-5 px-4 sm:max-w-screen-md sm:px-8 md:mt-20 md:gap-6 lg:mt-24 lg:gap-8"
+      >
+        <div class="flex flex-col items-center">
+          <h1
+            class="mb-4 text-balance text-center font-bevnpro text-3xl/[1.1] font-bold sm:max-w-[24ch] md:text-4xl/[1.1] xl:text-5xl/[1.1]"
+          >
+            <div class="tracking-wide">FAQ</div>
+          </h1>
+        </div>
+      </div>
+    </section>
+  </main>
+</template>
