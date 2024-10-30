@@ -1,7 +1,6 @@
 ---
 import NavbarComponent from '../components/NavbarComponent.vue'
 import FooterComponent from '../components/FooterComponent.vue'
-import VueViewsLayout from './VueViewsLayout.vue'
 
 interface Props {
   title: string
@@ -36,11 +35,9 @@ const { title } = Astro.props
     <title>{title}</title>
   </head>
   <body>
-    <NavbarComponent client:load />
-    <VueViewsLayout client:load>
+    <NavbarComponent />
       <slot />
-    </VueViewsLayout>
-    <FooterComponent client:load />
+    <FooterComponent />
   </body>
 </html>
 
