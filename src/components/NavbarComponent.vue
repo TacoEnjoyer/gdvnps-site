@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import GDVNPS_Icon from '../assets/gdps_icon.jpg'
 import { DiscordIcon, MenuIcon } from '../assets/icon'
 import { ref } from 'vue'
 </script>
@@ -18,7 +17,7 @@ export const isNavbarOpen = ref(false)
           <a href="/" title="Trang chủ">
             <img
               class="pointer-events-none rounded-2xl"
-              :src="GDVNPS_Icon.src"
+              src="/img/gdps_icon.jpg"
               alt="GDVNPS's logo"
               width="50"
               height="50"

@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import { CircleBG } from '@components/index'
 ---
 
 <Layout title="GDVNPS - Tải xuống">
@@ -11,18 +12,26 @@ import Layout from '../layouts/Layout.astro'
         >
           <div class="flex flex-col items-center">
             <h1
-              class="text-balance bg-gradient-to-br from-yellow-500 to-red-600 bg-clip-text text-center font-bevnpro text-3xl/[1.1] font-bold tracking-wide text-transparent sm:max-w-[24ch] md:text-4xl/[1.1] xl:text-5xl/[1.1]"
+              class="text-balance bg-gradient-to-br from-yellow-500 to-red-600 bg-clip-text text-center font-bevnpro text-4xl/[1.1] font-bold tracking-wide text-transparent sm:max-w-[24ch] md:text-5xl/[1.1] xl:text-6xl/[1.1]"
             >
               Tải xuống GDVNPS
             </h1>
           </div>
           <div>
-            <p class="text-center font-bevnpro">
+            <p class="text-center font-bevnpro text-base/[1.0]">
               Tải xuống GDVNPS cho Windows, Android, iOS.
             </p>
           </div>
         </div>
       </section>
     </main>
+    <section
+      class="mx-12 rounded-lg border-[rgba(15,23,51,0.3)] bg-slate-900/[0.2] shadow-[0,4px,30px,rgba(0,0,0,0.1)] backdrop-blur-[5px]"
+    >
+      <div>
+        <h1 class="text-3xl">Text</h1>
+      </div>
+    </section>
+    <CircleBG />
   </div>
 </Layout>
