@@ -85,14 +85,14 @@ export const isNavbarOpen = ref(false)
         >
         <a
           @click="isNavbarOpen = !isNavbarOpen"
-          href="/browser"
+          href="/datastore/browser"
           class="nav-link"
           title="Browser"
           >Browser</a
         >
         <a
           @click="isNavbarOpen = !isNavbarOpen"
-          href="/dashboard"
+          href="/datastore/dashboard"
           class="nav-link"
           title="Dashboard"
           >Dashboard</a
