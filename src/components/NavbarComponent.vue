@@ -32,8 +32,12 @@ export const isNavbarOpen = ref(false)
           <a href="/" class="nav-link" title="Trang chủ">Trang chủ</a>
           <a href="/download" class="nav-link" title="Tải xuống">Tải xuống</a>
           <a href="/faq" class="nav-link" title="FAQ">FAQ</a>
-          <a href="/browser" class="nav-link" title="Browser">Browser</a>
-          <a href="/dashboard" class="nav-link" title="Dashboard">Dashboard</a>
+          <a href="/datastore/browser" class="nav-link" title="Browser"
+            >Browser</a
+          >
+          <a href="/datastore/dashboard" class="nav-link" title="Dashboard"
+            >Dashboard</a
+          >
         </div>
         <div class="hidden gap-4 sm:flex">
           <a
