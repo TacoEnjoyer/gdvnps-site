@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro'
+import { BlurBG } from '@components/index'
 ---
 
 <Layout title="GDVNPS - FAQ">
@@ -10,12 +11,65 @@ import Layout from '../layouts/Layout.astro'
       >
         <div class="flex flex-col items-center">
           <h1
-            class="mb-4 text-balance text-center font-bevnpro text-3xl/[1.1] font-bold sm:max-w-[24ch] md:text-4xl/[1.1] xl:text-5xl/[1.1]"
+            class="text-balance bg-gradient-to-br from-yellow-500 to-red-600 bg-clip-text text-center font-bevnpro text-4xl/[1.1] font-bold tracking-wide text-transparent sm:max-w-[24ch] md:text-5xl/[1.1] xl:text-6xl/[1.1]"
           >
-            <div class="tracking-wide">FAQ</div>
+            Một số thông tin cơ bản về GDVNPS
           </h1>
         </div>
       </div>
     </section>
+    <div class="py-15 px-20 text-left font-bevnpro">
+      <br />
+      <p>Về hệ thống rating</p>
+      <p>
+        Để levels của bạn được rate có sao ⭐ trong GDVNPS, levels của bạn cần
+        đạt các tiêu chí sau đây:
+      </p>
+      <br />
+      <li>
+        Thứ nhất: Đối với những levels để đạt được "Rated", layout của nó phải
+        hay, đặc biệt, có một chút visual cũng được, không nhất thiết phải trang
+        trí nó và bạn nhận lại Rated level.
+      </li>
+      <li>
+        Thứ hai: Đối với những levels để đạt được "Featured", levels của bạn cần
+        có trang trí.
+      </li>
+      <li>
+        Thứ ba: Đối với những levels để đạt được "Epic", levels của bạn cần phải
+        có layout hay, trang chí một chút.
+      </li>
+      <li>
+        Thứ tư: Đối với những levels để đạt được "Legendary", levels của bạn yêu
+        cầu phải được trang trí đẹp.
+      </li>
+      <li>
+        Thứ năm: Đối với những levels để đạt được "Mythic", đây là mức độ rate
+        cuối cùng của game cho nên trang trí, visual và gần như mọi thứ phải đẹp
+        và hoàn hảo.
+      </li>
+    </div>
+    <p class="py-10 text-center font-bevnpro font-bold">
+      ĐỂ LEVEL CỦA BẠN ĐƯỢC RATE, BẠN CẦN BUILD NÓ DÀI HƠN 30 GIÂY HOẶC BẰNG!
+    </p>
+    <div class="py-15 px-20 text-left font-bevnpro">
+      <p>Tôi quên mật khẩu, tôi phải làm thế nào để khôi phục lại mật khẩu?</p>
+      <li>
+        Các bạn có thể liên hệ với @In-Game Moderator (trong server Discord của
+        chúng mình <a
+          class="underline decoration-solid"
+          href="https://discord.gg/SmBs7xGSWM">Tại đây</a
+        >) để họ giúp đỡ bạn đổi mật khẩu (chúng mình khuyến khích nên lựa chọn
+        một mật khẩu dễ nhớ mà không trùng với bất kỳ mật khẩu nào mà bạn đang
+        dùng)
+      </li>
+      <p class="py-10 text-center font-bevnpro font-bold">
+        Tuyệt đối không sử dụng mật khẩu chung với mật khẩu được sử dụng trên
+        tài khoản Geometry Dash chính thức (nếu bạn có), hoặc mật khẩu dùng
+        trong những tài khoản quan trọng của bạn như tài khoản Ngân hàng, Gmail,
+        Discord,...
+      </p>
+      <BlurBG />
+    </div>
   </main>
 </Layout>
